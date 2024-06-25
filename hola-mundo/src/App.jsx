@@ -5,12 +5,8 @@ export function App() {
     return (
         <section className='App'>
 
-            <TwiterFollowCard userName="midudev">
+            <TwiterFollowCard userName="midudev" initialIsFollowing={true}>
                 <h1>Miguel Angel Duran</h1>
-            </TwiterFollowCard>
-
-            <TwiterFollowCard userName="pheralb" >
-                <h1>Pablo Hernandez</h1>
             </TwiterFollowCard>
 
             <TwiterFollowCard userName="QuentTarantino">
@@ -21,6 +17,6 @@ export function App() {
                 <h1>Elon Musk</h1>
             </TwiterFollowCard>
 
-        </section >
+        </section>
     )
 }
